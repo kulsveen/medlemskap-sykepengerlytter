@@ -12,6 +12,7 @@ import java.time.LocalDateTime
 
 class JacksonParser {
     private val log = KotlinLogging.logger { }
+    private val secureLogger = KotlinLogging.logger("tjenestekall")
     fun parse(jsonString: String): LovmeSoknadDTO {
         try {
             val mapper: ObjectMapper = ObjectMapper()
@@ -23,7 +24,7 @@ class JacksonParser {
                 .configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_ENUMS, true)
             return mapper.readValue(jsonString)
         } catch (t: Throwable) {
-            log.error("Unable to parse json. Dropping message. Cause : ${t.message}")
+            secureLogger.error("Unable to parse json. Dropping message. Cause : ${t.message}")
             return LovmeSoknadDTO(
                 "",
                 SoknadstypeDTO.ARBEIDSTAKERE, SoknadsstatusDTO.SENDT,
@@ -47,7 +48,7 @@ class JacksonParser {
                 .configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_ENUMS, true)
             return mapper.readValue(jsonString)
         } catch (t: Throwable) {
-            log.error("Unable to parse json. Dropping message. Cause : ${t.message}")
+            secureLogger.error("Unable to parse json. Dropping message. Cause : ${t.message}")
             return FlexBrukerSporsmaal(null)
         }
     }
@@ -63,7 +64,7 @@ class JacksonParser {
                 .configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_ENUMS, true)
             return mapper.readValue(jsonString)
         } catch (t: Throwable) {
-            log.error("Unable to parse json. Dropping message. Cause : ${t.message}")
+            secureLogger.error("Unable to parse json. Dropping message. Cause : ${t.message}")
             throw t;
         }
     }
@@ -79,7 +80,7 @@ class JacksonParser {
                 .configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_ENUMS, true)
             return mapper.writeValueAsString(medlemskap)
         } catch (t: Throwable) {
-            log.error("Unable to parse json. Dropping message. Cause : ${t.message}")
+            secureLogger.error("Unable to parse json. Dropping message. Cause : ${t.message}")
             throw t;
         }
     }
@@ -94,7 +95,7 @@ class JacksonParser {
                     .configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_ENUMS, true)
                 return mapper.writeValueAsString(flexBrukerSporsmaal)
             } catch (t: Throwable) {
-                log.error("Unable to parse json. Dropping message. Cause : ${t.message}")
+                secureLogger.error("Unable to parse json. Dropping message. Cause : ${t.message}")
                 throw t;
             }
         }
@@ -109,7 +110,7 @@ class JacksonParser {
                 .configure(MapperFeature.ACCEPT_CASE_INSENSITIVE_ENUMS, true)
             return mapper.writeValueAsString(obj)
         } catch (t: Throwable) {
-            log.error("Unable to parse json. Dropping message. Cause : ${t.message}")
+            secureLogger.error("Unable to parse json. Dropping message. Cause : ${t.message}")
             throw t;
         }
     }
