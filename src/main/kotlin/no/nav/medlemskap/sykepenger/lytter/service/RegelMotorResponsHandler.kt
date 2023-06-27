@@ -25,9 +25,6 @@ class RegelMotorResponsHandler {
 
     private fun createFlexRespons(lovmeresponseNode: JsonNode?) :FlexRespons{
 
-        //if (lovmeresponseNode!!.erBritiskBorger() && !lovmeresponseNode.harOppholdsTilatelse()){
-        //    return FlexRespons(Svar.UAVKLART, setOf(Spørsmål.OPPHOLDSTILATELSE,Spørsmål.ARBEID_UTENFOR_NORGE,Spørsmål.OPPHOLD_UTENFOR_NORGE))
-        //}
         if (lovmeresponseNode!!.erEosBorger()){
             return FlexRespons(Svar.UAVKLART, setOf(Spørsmål.ARBEID_UTENFOR_NORGE,Spørsmål.OPPHOLD_UTENFOR_EØS_OMRÅDE))
         }
