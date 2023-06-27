@@ -1,53 +1,33 @@
 {
-  "tidspunkt" : "2023-06-01T13:55:59.911128",
-  "versjonTjeneste" : "d932da5",
+  "tidspunkt" : "2023-06-27T13:48:37.969895",
+  "versjonTjeneste" : "934dab0",
   "versjonRegler" : "v1",
-  "kanal" : "kafka",
+  "kanal" : "brukerspørsmål",
   "datagrunnlag" : {
-    "fnr" : "20069023380",
+    "fnr" : "01019724642",
     "periode" : {
-      "fom" : "2023-04-24",
-      "tom" : "2023-04-28"
+      "fom" : "2023-06-13",
+      "tom" : "2023-06-15"
     },
-    "førsteDagForYtelse" : "2023-04-24",
+    "førsteDagForYtelse" : "2023-06-13",
     "brukerinput" : {
       "arbeidUtenforNorge" : false
     },
     "pdlpersonhistorikk" : {
       "statsborgerskap" : [ {
-        "landkode" : "ERI",
+        "landkode" : "SYR",
         "fom" : null,
-        "tom" : null,
-        "historisk" : false
-      }, {
-        "landkode" : "NOR",
-        "fom" : "2022-08-16",
         "tom" : null,
         "historisk" : false
       } ],
       "bostedsadresser" : [ {
         "landkode" : "NOR",
-        "fom" : "2016-03-30",
-        "tom" : "2016-05-01",
+        "fom" : "2018-05-23",
+        "tom" : "2021-08-04",
         "historisk" : true
       }, {
         "landkode" : "NOR",
-        "fom" : "2016-05-02",
-        "tom" : "2016-12-05",
-        "historisk" : true
-      }, {
-        "landkode" : "NOR",
-        "fom" : "2016-12-06",
-        "tom" : "2018-10-01",
-        "historisk" : true
-      }, {
-        "landkode" : "NOR",
-        "fom" : "2018-10-02",
-        "tom" : "2020-07-29",
-        "historisk" : true
-      }, {
-        "landkode" : "NOR",
-        "fom" : "2020-07-30",
+        "fom" : "2021-08-05",
         "tom" : null,
         "historisk" : false
       } ],
@@ -55,23 +35,26 @@
       "oppholdsadresser" : [ ],
       "sivilstand" : [ {
         "type" : "GIFT",
-        "gyldigFraOgMed" : "2014-01-19",
-        "gyldigTilOgMed" : "2019-12-09",
-        "relatertVedSivilstand" : null
-      }, {
-        "type" : "SEPARERT",
-        "gyldigFraOgMed" : "2019-12-10",
+        "gyldigFraOgMed" : "2012-12-27",
         "gyldigTilOgMed" : null,
-        "relatertVedSivilstand" : null
+        "relatertVedSivilstand" : "02019217186"
       } ],
-      "forelderBarnRelasjon" : [ ],
+      "forelderBarnRelasjon" : [ {
+        "relatertPersonsIdent" : "16121899810",
+        "relatertPersonsRolle" : "BARN",
+        "minRolleForPerson" : "MOR"
+      }, {
+        "relatertPersonsIdent" : "06122199418",
+        "relatertPersonsRolle" : "BARN",
+        "minRolleForPerson" : "MOR"
+      } ],
       "doedsfall" : [ ],
       "innflyttingTilNorge" : [ {
-        "fraflyttingsland" : "ERI",
+        "fraflyttingsland" : "SYR",
         "fraflyttingsstedIUtlandet" : null,
         "folkeregistermetadata" : {
-          "ajourholdstidspunkt" : "2016-04-07T00:00:00",
-          "gyldighetstidspunkt" : "2016-03-30T00:00:00",
+          "ajourholdstidspunkt" : "2018-05-23T00:00:00",
+          "gyldighetstidspunkt" : "2018-05-23T00:00:00",
           "opphoerstidspunkt" : null
         },
         "metadata" : {
@@ -80,207 +63,46 @@
       } ],
       "utflyttingFraNorge" : [ ],
       "navn" : [ {
-        "fornavn" : "SAMUEL TSEHAYE",
+        "fornavn" : "SIMA RASHID",
         "mellomnavn" : null,
-        "etternavn" : "BRUK"
+        "etternavn" : "ABDO"
       } ]
     },
     "medlemskap" : [ ],
     "arbeidsforhold" : [ {
       "periode" : {
-        "fom" : "2022-03-15",
+        "fom" : "2021-05-01",
         "tom" : null
       },
       "utenlandsopphold" : null,
       "arbeidsgivertype" : "Organisasjon",
       "arbeidsgiver" : {
-        "organisasjonsnummer" : "873924462",
+        "organisasjonsnummer" : "922735409",
         "ansatte" : [ {
-          "antall" : 100,
+          "antall" : 3,
           "gyldighetsperiode" : {
-            "fom" : "2023-05-11",
+            "fom" : "2023-02-13",
             "tom" : null
           }
         } ],
         "konkursStatus" : null,
         "juridiskeEnheter" : [ {
-          "organisasjonsnummer" : "910500805",
+          "organisasjonsnummer" : "922661758",
           "enhetstype" : "AS",
-          "antallAnsatte" : 3323
+          "antallAnsatte" : 3
         } ]
       },
       "arbeidsforholdstype" : "NORMALT",
       "arbeidsavtaler" : [ {
         "periode" : {
-          "fom" : "2023-05-22",
-          "tom" : null
-        },
-        "gyldighetsperiode" : {
-          "fom" : "2023-05-01",
-          "tom" : null
-        },
-        "yrkeskode" : "8322106",
-        "skipsregister" : null,
-        "fartsomraade" : null,
-        "stillingsprosent" : 0.0,
-        "beregnetAntallTimerPrUke" : 0.0,
-        "skipstype" : null
-      }, {
-        "periode" : {
-          "fom" : "2023-05-22",
-          "tom" : null
-        },
-        "gyldighetsperiode" : {
-          "fom" : "2023-04-01",
-          "tom" : "2023-04-30"
-        },
-        "yrkeskode" : "8322106",
-        "skipsregister" : null,
-        "fartsomraade" : null,
-        "stillingsprosent" : 0.0,
-        "beregnetAntallTimerPrUke" : 0.0,
-        "skipstype" : null
-      }, {
-        "periode" : {
-          "fom" : "2023-04-20",
-          "tom" : null
-        },
-        "gyldighetsperiode" : {
-          "fom" : "2022-11-01",
-          "tom" : "2023-03-31"
-        },
-        "yrkeskode" : "8322106",
-        "skipsregister" : null,
-        "fartsomraade" : null,
-        "stillingsprosent" : 0.0,
-        "beregnetAntallTimerPrUke" : 0.0,
-        "skipstype" : null
-      }, {
-        "periode" : {
-          "fom" : "2022-11-24",
-          "tom" : null
-        },
-        "gyldighetsperiode" : {
-          "fom" : "2022-07-01",
-          "tom" : "2022-10-31"
-        },
-        "yrkeskode" : "8322106",
-        "skipsregister" : null,
-        "fartsomraade" : null,
-        "stillingsprosent" : 0.0,
-        "beregnetAntallTimerPrUke" : 0.0,
-        "skipstype" : null
-      }, {
-        "periode" : {
-          "fom" : "2022-07-20",
-          "tom" : null
-        },
-        "gyldighetsperiode" : {
-          "fom" : "2022-06-01",
-          "tom" : "2022-06-30"
-        },
-        "yrkeskode" : "8322106",
-        "skipsregister" : null,
-        "fartsomraade" : null,
-        "stillingsprosent" : 0.0,
-        "beregnetAntallTimerPrUke" : 0.0,
-        "skipstype" : null
-      }, {
-        "periode" : {
-          "fom" : "2022-06-27",
-          "tom" : null
-        },
-        "gyldighetsperiode" : {
-          "fom" : "2022-04-01",
-          "tom" : "2022-05-31"
-        },
-        "yrkeskode" : "8322106",
-        "skipsregister" : null,
-        "fartsomraade" : null,
-        "stillingsprosent" : 0.0,
-        "beregnetAntallTimerPrUke" : 0.0,
-        "skipstype" : null
-      } ],
-      "permisjonPermittering" : null
-    }, {
-      "periode" : {
-        "fom" : "2021-06-28",
-        "tom" : null
-      },
-      "utenlandsopphold" : null,
-      "arbeidsgivertype" : "Organisasjon",
-      "arbeidsgiver" : {
-        "organisasjonsnummer" : "974110210",
-        "ansatte" : [ {
-          "antall" : 22,
-          "gyldighetsperiode" : {
-            "fom" : "2022-10-11",
-            "tom" : null
-          }
-        } ],
-        "konkursStatus" : null,
-        "juridiskeEnheter" : [ {
-          "organisasjonsnummer" : "966912456",
-          "enhetstype" : "AS",
-          "antallAnsatte" : 36
-        } ]
-      },
-      "arbeidsforholdstype" : "NORMALT",
-      "arbeidsavtaler" : [ {
-        "periode" : {
-          "fom" : "2023-04-04",
-          "tom" : null
-        },
-        "gyldighetsperiode" : {
-          "fom" : "2023-03-01",
-          "tom" : null
-        },
-        "yrkeskode" : "7231122",
-        "skipsregister" : null,
-        "fartsomraade" : null,
-        "stillingsprosent" : 100.0,
-        "beregnetAntallTimerPrUke" : 37.5,
-        "skipstype" : null
-      }, {
-        "periode" : {
-          "fom" : "2023-04-04",
-          "tom" : null
-        },
-        "gyldighetsperiode" : {
-          "fom" : "2022-09-01",
-          "tom" : "2023-02-28"
-        },
-        "yrkeskode" : "7231122",
-        "skipsregister" : null,
-        "fartsomraade" : null,
-        "stillingsprosent" : 100.0,
-        "beregnetAntallTimerPrUke" : 37.5,
-        "skipstype" : null
-      }, {
-        "periode" : {
-          "fom" : "2022-10-05",
-          "tom" : null
-        },
-        "gyldighetsperiode" : {
-          "fom" : "2022-04-01",
-          "tom" : "2022-08-31"
-        },
-        "yrkeskode" : "7231122",
-        "skipsregister" : null,
-        "fartsomraade" : null,
-        "stillingsprosent" : 100.0,
-        "beregnetAntallTimerPrUke" : 37.5,
-        "skipstype" : null
-      }, {
-        "periode" : {
-          "fom" : "2022-05-03",
+          "fom" : "2021-11-03",
           "tom" : null
         },
         "gyldighetsperiode" : {
           "fom" : "2021-10-01",
-          "tom" : "2022-03-31"
+          "tom" : null
         },
-        "yrkeskode" : "7231122",
+        "yrkeskode" : "5122126",
         "skipsregister" : null,
         "fartsomraade" : null,
         "stillingsprosent" : 100.0,
@@ -288,14 +110,14 @@
         "skipstype" : null
       }, {
         "periode" : {
-          "fom" : "2021-11-01",
+          "fom" : "2021-11-03",
           "tom" : null
         },
         "gyldighetsperiode" : {
-          "fom" : "2021-06-01",
+          "fom" : "2021-05-01",
           "tom" : "2021-09-30"
         },
-        "yrkeskode" : "7231122",
+        "yrkeskode" : "5122126",
         "skipsregister" : null,
         "fartsomraade" : null,
         "stillingsprosent" : 100.0,
@@ -307,19 +129,188 @@
     "oppgaver" : [ ],
     "dokument" : [ ],
     "ytelse" : "SYKEPENGER",
-    "dataOmBarn" : [ ],
-    "dataOmEktefelle" : null,
+    "dataOmBarn" : [ {
+      "personhistorikkBarn" : {
+        "ident" : "16121899810",
+        "bostedsadresser" : [ {
+          "landkode" : "NOR",
+          "fom" : "2018-12-16",
+          "tom" : "2021-08-04",
+          "historisk" : true
+        }, {
+          "landkode" : "NOR",
+          "fom" : "2021-08-05",
+          "tom" : null,
+          "historisk" : false
+        } ],
+        "kontaktadresser" : [ ],
+        "oppholdsadresser" : [ ],
+        "forelderBarnRelasjon" : [ {
+          "relatertPersonsIdent" : "02019217186",
+          "relatertPersonsRolle" : "FAR",
+          "minRolleForPerson" : "BARN"
+        }, {
+          "relatertPersonsIdent" : "01019724642",
+          "relatertPersonsRolle" : "MOR",
+          "minRolleForPerson" : "BARN"
+        } ]
+      }
+    }, {
+      "personhistorikkBarn" : {
+        "ident" : "06122199418",
+        "bostedsadresser" : [ {
+          "landkode" : "NOR",
+          "fom" : "2021-12-06",
+          "tom" : null,
+          "historisk" : false
+        } ],
+        "kontaktadresser" : [ ],
+        "oppholdsadresser" : [ ],
+        "forelderBarnRelasjon" : [ {
+          "relatertPersonsIdent" : "01019724642",
+          "relatertPersonsRolle" : "MOR",
+          "minRolleForPerson" : "BARN"
+        }, {
+          "relatertPersonsIdent" : "02019217186",
+          "relatertPersonsRolle" : "FAR",
+          "minRolleForPerson" : "BARN"
+        } ]
+      }
+    } ],
+    "dataOmEktefelle" : {
+      "personhistorikkEktefelle" : {
+        "ident" : "02019217186",
+        "statsborgerskap" : [ {
+          "landkode" : "SYR",
+          "fom" : null,
+          "tom" : null,
+          "historisk" : false
+        } ],
+        "barn" : [ "16121899810", "06122199418" ],
+        "bostedsadresser" : [ {
+          "landkode" : "NOR",
+          "fom" : "2016-11-29",
+          "tom" : "2016-12-22",
+          "historisk" : true
+        }, {
+          "landkode" : "NOR",
+          "fom" : "2016-12-23",
+          "tom" : "2017-02-02",
+          "historisk" : true
+        }, {
+          "landkode" : "NOR",
+          "fom" : "2017-02-03",
+          "tom" : "2017-07-06",
+          "historisk" : true
+        }, {
+          "landkode" : "NOR",
+          "fom" : "2017-07-07",
+          "tom" : "2021-08-04",
+          "historisk" : true
+        }, {
+          "landkode" : "NOR",
+          "fom" : "2021-08-05",
+          "tom" : null,
+          "historisk" : false
+        } ],
+        "kontaktadresser" : [ {
+          "landkode" : "NOR",
+          "fom" : "2016-11-29",
+          "tom" : "2016-12-23",
+          "historisk" : true
+        } ],
+        "oppholdsadresser" : [ ]
+      },
+      "arbeidsforholdEktefelle" : [ {
+        "periode" : {
+          "fom" : "2019-06-01",
+          "tom" : null
+        },
+        "utenlandsopphold" : null,
+        "arbeidsgivertype" : "Organisasjon",
+        "arbeidsgiver" : {
+          "organisasjonsnummer" : "922735409",
+          "ansatte" : [ {
+            "antall" : 3,
+            "gyldighetsperiode" : {
+              "fom" : "2023-02-13",
+              "tom" : null
+            }
+          } ],
+          "konkursStatus" : null,
+          "juridiskeEnheter" : [ {
+            "organisasjonsnummer" : "922661758",
+            "enhetstype" : "AS",
+            "antallAnsatte" : 3
+          } ]
+        },
+        "arbeidsforholdstype" : "NORMALT",
+        "arbeidsavtaler" : [ {
+          "periode" : {
+            "fom" : "2021-02-04",
+            "tom" : null
+          },
+          "gyldighetsperiode" : {
+            "fom" : "2021-01-01",
+            "tom" : null
+          },
+          "yrkeskode" : "5122126",
+          "skipsregister" : null,
+          "fartsomraade" : null,
+          "stillingsprosent" : 100.0,
+          "beregnetAntallTimerPrUke" : 37.5,
+          "skipstype" : null
+        }, {
+          "periode" : {
+            "fom" : "2021-02-04",
+            "tom" : null
+          },
+          "gyldighetsperiode" : {
+            "fom" : "2019-06-01",
+            "tom" : "2020-12-31"
+          },
+          "yrkeskode" : "5122126",
+          "skipsregister" : null,
+          "fartsomraade" : null,
+          "stillingsprosent" : 100.0,
+          "beregnetAntallTimerPrUke" : 37.5,
+          "skipstype" : null
+        } ],
+        "permisjonPermittering" : null
+      } ]
+    },
     "overstyrteRegler" : { },
     "oppholdstillatelse" : {
-      "uttrekkstidspunkt" : "2023-06-01T13:55:59.373",
-      "foresporselsfodselsnummer" : "20069023380",
+      "uttrekkstidspunkt" : "2023-06-27T13:48:38.686",
+      "foresporselsfodselsnummer" : "01019724642",
       "avgjoerelse" : null,
-      "gjeldendeOppholdsstatus" : null,
-      "arbeidsadgang" : null,
+      "gjeldendeOppholdsstatus" : {
+        "oppholdstillatelsePaSammeVilkar" : {
+          "periode" : {
+            "fom" : "2023-06-26",
+            "tom" : null
+          },
+          "type" : "PERMANENT",
+          "harTillatelse" : true,
+          "soknadIkkeAvgjort" : false
+        },
+        "eosellerEFTAOpphold" : null,
+        "uavklart" : null,
+        "ikkeOppholdstillatelseIkkeOppholdsPaSammeVilkarIkkeVisum" : null
+      },
+      "arbeidsadgang" : {
+        "periode" : {
+          "fom" : "2023-06-26",
+          "tom" : null
+        },
+        "harArbeidsadgang" : true,
+        "arbeidsadgangType" : "GENERELL",
+        "arbeidsomfang" : null
+      },
       "uavklartFlyktningstatus" : null,
       "harFlyktningstatus" : null
     },
-    "startDatoForYtelse" : "2023-04-24"
+    "startDatoForYtelse" : "2023-06-13"
   },
   "resultat" : {
     "regelId" : "REGEL_MEDLEM_KONKLUSJON",
@@ -410,7 +401,7 @@
       "avklaring" : "Er felles regler for arbeidsforhold avklart?"
     }, {
       "regelId" : "REGEL_STATSBORGERSKAP",
-      "svar" : "UAVKLART",
+      "svar" : "JA",
       "begrunnelse" : "",
       "harDekning" : null,
       "dekning" : "",
@@ -425,20 +416,15 @@
         "avklaring" : "Er bruker omfattet av grunnforordningen (EØS)? Dvs er bruker statsborger i et EØS-land inkl. Norge?"
       }, {
         "regelId" : "REGEL_27",
-        "svar" : "JA",
-        "begrunnelse" : "Bruker har nylig blitt norsk statsborger",
+        "svar" : "NEI",
+        "begrunnelse" : "Bruker har ikke blitt norsk statsborger",
         "harDekning" : null,
         "dekning" : "",
         "delresultat" : [ ],
         "årsaker" : [ ],
         "avklaring" : "Når bruker har to statsborgerskap og det ene er norsk, har bruker nylig blitt norsk statsborger?"
       } ],
-      "årsaker" : [ {
-        "regelId" : "REGEL_27",
-        "avklaring" : "Når bruker har to statsborgerskap og det ene er norsk, har bruker nylig blitt norsk statsborger?",
-        "svar" : "JA",
-        "begrunnelse" : "Bruker har nylig blitt norsk statsborger"
-      } ],
+      "årsaker" : [ ],
       "avklaring" : "Er statsborgerskap avklart?"
     }, {
       "regelId" : "REGEL_TREDJELANDSBORGER_FAMILIE",
@@ -448,13 +434,22 @@
       "dekning" : "",
       "delresultat" : [ {
         "regelId" : "REGEL_28",
-        "svar" : "NEI",
-        "begrunnelse" : "Bruker har ikke ektefelle i PDL",
+        "svar" : "JA",
+        "begrunnelse" : "",
         "harDekning" : null,
         "dekning" : "",
         "delresultat" : [ ],
         "årsaker" : [ ],
         "avklaring" : "Har bruker ektefelle i PDL?"
+      }, {
+        "regelId" : "REGEL_29",
+        "svar" : "NEI",
+        "begrunnelse" : "Ektefelle til bruker er ikke EØS-borger",
+        "harDekning" : null,
+        "dekning" : "",
+        "delresultat" : [ ],
+        "årsaker" : [ ],
+        "avklaring" : "Er ektefellen en EØS-borger?"
       } ],
       "årsaker" : [ ],
       "avklaring" : "Er tredjelandsborgers familie EØS medlem?"
@@ -538,18 +533,41 @@
         "avklaring" : "Når brukers tillatelse er EØS eller EFTA; er brukers ektefelle statsborger i UK?"
       }, {
         "regelId" : "REGEL_19_3",
-        "svar" : "UAVKLART",
-        "begrunnelse" : "",
+        "svar" : "NEI",
+        "begrunnelse" : "Bruker har ikke gyldig oppholdstillatelse",
         "harDekning" : null,
         "dekning" : "",
         "delresultat" : [ ],
         "årsaker" : [ ],
         "avklaring" : "Har bruker en gyldig oppholdstillatelse 12 måneder bakover og 2 måned fremover i tid?"
+      }, {
+        "regelId" : "REGEL_19_3_1",
+        "svar" : "NEI",
+        "begrunnelse" : "Oppholdstillatelsen dekker ikke arbeidsperioden",
+        "harDekning" : null,
+        "dekning" : "",
+        "delresultat" : [ ],
+        "årsaker" : [ ],
+        "avklaring" : "Dekker oppholdstillatelsen arbeidsperioden bakover i tid?"
+      }, {
+        "regelId" : "REGEL_19_7",
+        "svar" : "NEI",
+        "begrunnelse" : "",
+        "harDekning" : null,
+        "dekning" : "",
+        "delresultat" : [ ],
+        "årsaker" : [ ],
+        "avklaring" : "Er bruker britisk borger?"
       } ],
       "årsaker" : [ {
-        "regelId" : "REGEL_19_3",
-        "avklaring" : "Har bruker en gyldig oppholdstillatelse 12 måneder bakover og 2 måned fremover i tid?",
+        "regelId" : "REGEL_19_3_1",
+        "avklaring" : "Dekker oppholdstillatelsen arbeidsperioden bakover i tid?",
         "svar" : "UAVKLART",
+        "begrunnelse" : ""
+      }, {
+        "regelId" : "REGEL_19_7",
+        "avklaring" : "Er bruker britisk borger?",
+        "svar" : "NEI",
         "begrunnelse" : ""
       } ],
       "avklaring" : "Har bruker gyldig oppholdstillatelse?"
@@ -627,13 +645,8 @@
       "avklaring" : "Er regler for andre borgere avklart?"
     } ],
     "årsaker" : [ {
-      "regelId" : "REGEL_27",
-      "avklaring" : "Når bruker har to statsborgerskap og det ene er norsk, har bruker nylig blitt norsk statsborger?",
-      "svar" : "JA",
-      "begrunnelse" : "Bruker har nylig blitt norsk statsborger"
-    }, {
-      "regelId" : "REGEL_19_3",
-      "avklaring" : "Har bruker en gyldig oppholdstillatelse 12 måneder bakover og 2 måned fremover i tid?",
+      "regelId" : "REGEL_19_3_1",
+      "avklaring" : "Dekker oppholdstillatelsen arbeidsperioden bakover i tid?",
       "svar" : "UAVKLART",
       "begrunnelse" : ""
     } ],
